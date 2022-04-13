@@ -22,3 +22,13 @@ body {
 }
 
 /* Header */
+
+header {
+  background-color: #35424a;
+  color: #fff;
+  padding-top: 30px;
+  /* 70px are lower */
+  min-height: 70px;
+  /* Orange bottom border */
+  border-bottom: #e8491c 3px solid;
+}
