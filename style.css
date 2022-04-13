@@ -26,7 +26,6 @@ body {
 header {
   background-color: #35424a;
   color: #fff;
-<<<<<<< HEAD
   padding-top: 30px; 
   min-height: 50px;
   border-bottom: #e8491c 3px solid;
@@ -69,11 +68,5 @@ header .highlight, header .current a{
    color: #e8491d;
    font-weight: bold;
 }
-=======
-  padding-top: 30px;
-  /* 70px are lower */
-  min-height: 70px;
-  /* Orange bottom border */
-  border-bottom: #e8491c 3px solid;
-}
->>>>>>> c4e418212fe66969241db89244b38a76f993c181
+
+
