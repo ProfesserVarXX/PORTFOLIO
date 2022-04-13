@@ -9,6 +9,14 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Global */
 .container {
-  
+  /* width of the container */
+  width: 80%;
+  /* margin auto centers everything inside the container according to thewidth of the container*/
+  margin: auto;
+  /* anything that can't fit inside the container this hides it */
+  overflow: hidden;
 }
+
+/* Header */
