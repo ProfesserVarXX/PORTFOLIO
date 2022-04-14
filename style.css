@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 /* Global */
@@ -15,7 +15,7 @@ body {
   margin: auto;
   /* width of the container */
   width: 80%;
-  /* margin auto centers everything inside the container according to thewidth of the container*/
+  /* margin auto centers everything inside the container according to the width of the container*/
   margin: auto;
   /* anything that can't fit inside the container this hides it */
   overflow: hidden;
@@ -26,12 +26,10 @@ body {
 header {
   background-color: #35424a;
   color: #fff;
-<<<<<<< HEAD
   padding-top: 30px; 
   min-height: 50px;
   border-bottom: #e8491c 3px solid;
 }
-
 
 header a{
   color: #fff;
@@ -52,28 +50,60 @@ header li{
   padding: 0px 20px 0px 20px;
 }
 
-header .branding{
- float: left;
+header .branding h1 {
+  margin: 0;
 }
 
-header .branding h1{
- margin: 0;
+@media(max-width: 699px) {
+   .group {
+      display: flex;
+      justify-content: center;
+    }
+
+ .branding {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 700px) {
+ header .branding {
+    float: left;
+  }
+
+ header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+  }
+
 }
 
 header nav {
   float: right;
   margin-top: 10px;
 }
-
+  
 header .highlight, header .current a{
-   color: #e8491d;
-   font-weight: bold;
+  color: #e8491d;
+  font-weight: bold;
 }
-=======
-  padding-top: 30px;
-  /* 70px are lower */
-  min-height: 70px;
-  /* Orange bottom border */
-  border-bottom: #e8491c 3px solid;
+
+header a:hover {
+  color: #ccc;
+  font-weight: bold;
 }
->>>>>>> c4e418212fe66969241db89244b38a76f993c181
+
+.showcase {
+  min-height: 400px;
+  background: url(./images/Graphic-Design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+}
