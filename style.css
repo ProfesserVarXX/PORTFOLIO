@@ -11,8 +11,6 @@ body {
 
 /* Global */
 .container {
-  width: 80%; 
-  margin: auto;
   /* width of the container */
   width: 80%;
   /* margin auto centers everything inside the container according to the width of the container*/
@@ -32,10 +30,11 @@ body {
 }
 
 
-.dark_bg {
+.dark {
   padding: 15px;
-  background-color: #e8491d;
+  background-color: #35424a;
   color: #fff;
+  margin: 10px 0px 10px 0px;
 }
 
 /* Header */
@@ -86,7 +85,7 @@ header .branding h1 {
   header .branding {
     float: left;
   }
-  header li{
+  header li {
     float: left;
     display: inline;
     padding: 0px 20px 0px 20px;
@@ -187,12 +186,26 @@ aside.sidebar {
   margin-top: 10px;
 }
 
+aside.sidebar .quote input, aside.sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
 
 /* Article */
 
 article.main-col {
   float: left;
   width: 65%;
+}
+
+/* services */
+
+ul.services li {
+  list-style: none;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+  background-color: #e6e6e6;
 }
 
 /* footer */
